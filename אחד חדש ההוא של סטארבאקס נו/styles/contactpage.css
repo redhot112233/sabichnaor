@@ -1,0 +1,106 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: Heebo;
+    scroll-behavior: smooth;
+}
+
+.container {
+    height: 143vh;
+    position: relative;
+    background: #FFFFE7;
+}
+
+.side-padding {
+    padding: 0 45px;
+}
+
+.sabich-logo {
+    width: 140px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.navbar-left {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+    .navbar-list > li {
+        margin-left: 20px;
+    }
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
+
+.socials-section {
+    display: flex;
+    justify-content: space-around
+}
+
+    .socials-section img {
+        margin-right: 20px
+    }
+
+    h1{
+        color:purple;
+        font-size:47px;
+    }
+    h1,p{
+        text-align:center;
+    }
+form {
+    align-content: center;
+    text-align: center;
+}
+ .redot::after{
+    content: " *";
+    font-weight: bold;
+    color: red;
+}
+.footerlist li {
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+    .footerlist li a {
+        font-weight: bold;
+        color: white;
+    }
+
+    input{
+        text-align:center;
+        justify-content:center;
+        
+    }
+.checkboxes label {
+    display: block;
+    
+}
+
+

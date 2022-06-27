@@ -1,0 +1,261 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: Heebo;
+    scroll-behavior: smooth;
+}
+
+.container {
+    min-height: 100vh;
+    position: relative;
+    background: #FFFFE7;
+}
+
+.side-padding {
+    padding: 0 45px;
+}
+
+.sabich-logo {
+    width: 140px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; direction: rtl;
+}
+
+.navbar-left {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+    .navbar-list > li {
+        margin-left: 20px;
+        color: black;
+    }
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: purple;
+}
+
+.socials-section {
+    display: flex;
+    justify-content: space-around
+}
+
+    .socials-section img {
+        margin-right: 20px
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    text-align:center;
+    color:purple;
+}
+
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-left, .gallery-right {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.gallery-center {
+    width: 70%;
+    text-align: center;
+}
+
+.main-image {
+    width: 700px;
+    height: 450px;
+}
+
+.thumbnail {
+    width: 15%;
+    cursor: pointer;
+}
+
+.all-thumbnails {
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.main-image-containe {
+    position: relative;
+}
+
+.image-info-container {
+    position: absolute;
+    top: 0;
+    right: 27%;
+    
+    background-color: white;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-image {
+    opacity: 0.5;
+}
+
+
+
+
+
+#read-more {
+    text-align: center;
+    margin-top: 50px;
+    min-height: 150vh;
+}
+
+.read-more-section-inner {
+    display: flex;
+    width: 100%;
+    background-color: #242424;
+    color: white;
+}
+
+.read-more-section-inner2, .read-more-section-inner4, .read-more-section-inner6 {
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+}
+
+h2 {
+    font-size: 35px;
+    padding: 30px;
+    font-family: Heebo;
+    color: purple;
+}
+
+.photo {
+    width: 50%;
+    background-image: url('../images/sabish-solo-images/סביח ירושלמי.jpg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.picturetext {
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    font-size: 20px;
+    padding: 56px;
+    border-top: 3px solid black;
+}
+
+
+
+
+.photo2 {
+    width: 50%;
+    background-image: url(../images/sabish-solo-images/manat_sabih_ovad_i.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 117%;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+
+ .photo3 {
+    width: 50%;
+    background-image: url(../images/maxresdefault.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+.photo4 {
+    width: 50%;
+    background-image: url(../images/sabish-solo-images/pandasabich_i.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.photo5 {
+    width: 50%;
+    background-image: url(../images/sabish-solo-images/sabichhasharonpitta_i.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+
+
+
+.picturetext h1 {
+    color: #9FA7DA;
+}
+.read-more-section-inner2 .picturetext h1 {
+   color: #710000;
+}
+.footerlist li {
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+    .footerlist li a {
+        font-weight: bold;
+        color: white;
+    }

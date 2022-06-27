@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/contactpage.css"rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <header aria-label="main-nav">
+            <div class="navbar side-padding">
+                <div class="navbar-right">
+                    <ul class="navbar-list">
+                        <li><a href="index.html">דף בית</a></li>
+                        <li><a href="about.html">אודות האתר</a></li>
+                        <li><a href="historypage.html">היסטוריה</a></li>
+                        <li><a href="sabichforthemass.html">סביח להמונים</a></li>
+                        <li><a href="#">צרו קשר</a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar-left">
+                    <div class="socials-section">
+                        <img src="images/facebook.png" alt="פייסבוק" />
+                        <img src="images/instagram.png" alt="אינסטגרם" />
+                        <img src="images/twitter.png"  alt="טוויטר"  />
+                    </div>
+
+                    <div class="logo-section">
+                        <a href="index.html"><img class="sabich-logo" src="images/sabichlogo.png"  alt="דף בית"  /></a>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!---contactform-main-->
+        <h1>צרו קשר!</h1><br />
+        <p>פספסנו סביח מעולה? פרט היסטורי חשוב? סתם אין לכם חיים? </p>
+        <p>דברו איתנו!</p><br />
+
+        <form>
+            <h2>השם שלי הוא...</h2><br />
+
+            <label class="redot" for="firstname">שם פרטי:</label><br>
+            <input required type="text" id="firstname" name="first" placeholder="הקלד שם פרטי..."><br>
+            <label class="redot" for="lastname">שם משפחה:</label><br>
+            <input required type="text" id="lastname" name="last" placeholder="הקלד שם משפחה..."><br /><br />
+
+            <h2>הסביח האהוב עליי הוא...</h2><br />
+
+        <div class="checkboxes">
+                                                <input type="checkbox" id="frishman" name="frishman" value="sabichfrishman">
+                                                <label for="sabich1">סביח פרישמן</label><br>
+                                                <input type="checkbox" id="yerushalmi" name="yerushalmi" value="sabichyerushalmi">
+                                                <label for="sabich2">סביח ירושלמי</label><br>
+                                                <input type="checkbox" id="ovad" name="ovad" value="sabichovad">
+                                                <label for="sabich3">סביח עובד</label><br>
+                                                <input type="checkbox" id="hamekori" name="hamekori" value="sabichhamekori">
+                                                <label for="sabich4">המזנון המקורי</label><br>
+                                                <input type="checkbox" id="hasharon" name="hasharon" value="sabichhashron">
+                                                <label for="sabich5">סביח השרון</label><br><br />
+         </div>
+            <h2>האימייל שלי הוא...</h2><br />
+
+            <label class="redot" for="email"  >דוא''ל:</label>
+            <input  required type="email" id="email" name="email"><br /><br />
+
+            <h2>אני...</h2><br />
+
+            <fieldset>
+
+                <input type="radio" name="gender" />אישה<br />
+                <input type="radio" name="gender" />גבר<br />
+                <input type="radio" name="gender" />אחר<br />
+                <input type="radio" name="gender" /> אני אתבע אתכם כי אני לא מגדיר את עצמי בשום צורה ,
+                האתר הזה פוגעני אתם עוד תשמעו מהעורך דין שלי<br />
+
+            </fieldset><br />
+
+            <h2 class="redot">ספרו לנו על החוויה שלכם!</h2><br />
+
+            <textarea id="tellus" placeholder="הבע את דעתך על האתר " rows="4"> </textarea>
+
+            <input type="submit" id="send" value="שליחה" />
+        </form>
+
+        <!--footer-->
+        <div class="footer">
+            <div class="footerlist">
+                <ul>
+                    <li><a href="sitemap.html">מפת האתר</a></li>
+                    <li>
+                        נאור הרשקוביץ © האידיוט שעשה אתר על סביח 1972
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>

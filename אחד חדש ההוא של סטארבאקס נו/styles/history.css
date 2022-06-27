@@ -1,0 +1,180 @@
+﻿
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family:Heebo;
+    scroll-behavior: smooth;
+}
+
+.container {
+    min-height: 100vh;
+    position: relative;
+    background: #FFFFE7;
+}
+
+.side-padding {
+    padding: 0 45px;
+}
+
+.sabich-logo {
+    width: 140px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.navbar-left {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+
+    .navbar-list > li {
+        margin-left: 20px;
+        color:black;
+    }
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: purple;
+}
+
+.socials-section {
+    display: flex;
+    justify-content: space-around
+}
+
+    .socials-section img {
+        margin-right: 20px
+    }
+
+.heaven-image-container {
+    text-align: center
+}
+.heaven-image {
+    width: 450px;
+    height: 300px;
+    box-shadow: 0px 0px 10px 2px grey;
+    border-radius: 30px;
+    margin:30px;
+}
+h1 {
+    font-size: 83px;
+    text-align: center;
+    color: purple;
+    font-family: Heebo;
+}
+
+.scroll-bottom-section {
+    text-align: center;
+}
+
+.scroll-down-gif {
+   
+    width: 154px;
+    height:150px;
+    
+}
+
+#read-more {
+    text-align: center;
+    margin-top: 50px;
+    min-height: 150vh;
+}
+.read-more-section-inner {
+    display: flex;
+    width: 100%;
+    background-color: #242424;
+    color: white;
+}
+
+.read-more-section-inner2 {
+    background-color:whitesmoke;
+    color: black;
+    display: flex;
+}
+
+h2 {
+    font-size: 35px;
+    padding:30px;
+    font-family:Heebo;
+    color:purple;
+    
+}
+.photo {
+    width: 50%;
+
+
+    background-image: url('../images/sabish-solo-images/סביח ירושלמי.jpg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+.picturetext {
+    width: 50%;
+    height:100%;
+    text-align: right;
+    font-size: 30px;
+    padding: 50px;
+    border-top:3px solid black;
+   
+}
+.photo img {
+    height:450px;
+    width:759px;
+}
+.footerlist li {
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+    .footerlist li a {
+        font-weight: bold;
+        color: white;
+    }
+
+.photo2 {
+    width: 50%;
+    background-image: url(../images/hamekori.PNG);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+.photo3 {
+    width: 50%;
+    background-image: url(../images/maxresdefault.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 125%;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}

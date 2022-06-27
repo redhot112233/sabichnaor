@@ -1,0 +1,223 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family:Heebo;
+    scroll-behavior: smooth
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+    background: #FFFFE7;
+}
+
+.side-padding {
+    padding: 0 45px;
+}
+
+.sabich-logo {
+    width: 140px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.navbar-left {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar-list {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+.navbar-list > li {
+    margin-left: 20px;
+}
+a:visited{
+    color:black;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover{
+    color:purple;
+}
+
+.socials-section {
+    display: flex;
+    justify-content: space-around
+}
+.socials-section img {
+    margin-right: 20px
+}
+.main-content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.main-content-left {
+    width: 50%;
+}
+.main-content-right {
+    width: 40%;
+   z-index:+1;
+   position:relative;
+   top:30px;
+   transition:0.5s;
+}
+.main-content-right:hover{
+    transform:rotate(-27deg);
+}
+.description-section p {
+    font-size: 22px;
+}
+.description-section h1 {
+    font-size: 47px;
+    font-weight:900;
+    transition:0.4s;
+}
+.highlighted-text {
+    font-size: 72px;
+    color: purple;
+}
+.main-style-button {
+    background-color: purple;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.main-style-button:hover{
+    transform:translateY(+10px);
+}
+.description-circles {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-between;
+}
+.description-circle {
+    border-radius: 50%;
+    border: 6px solid #A734ED;
+    background-color: #D7A1F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+}
+.description-circle img {
+    width: 150px;
+    height: 120px;
+    transition:0.5s
+}
+.description-circle img:hover{
+    transform:translateY(-15px);
+}
+.eggs {
+    position: relative;
+    left: 15px;
+}
+.circle-big {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(600px at right 800px);
+    background: #81007F;
+}
+.circle-medium {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(400px at right 800px);
+    background: #3C005A;
+}
+.circle-small {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(200px at right 800px);
+    background: #E9BFFF;
+}
+.secondsegment {
+    background-image: url(../images/image.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    border-top: solid black;
+    border-bottom:solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+.cards {
+    width: 380px;
+    height: 420px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+}
+#sabichforthemasscard {
+    background-image: url(../images/ODHG1M0.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #FFFFE7;
+    transition: 0.7s;
+    font-size: 15px;
+}
+#historycard {
+    background-image: url(../images/book.PNG);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    transition: 0.7s;
+    font-size: 15px;
+}
+#historycard:hover {
+    height: 470px;
+    transition: 0.7s;
+}
+#sabichforthemasscard:hover {
+    height: 470px;
+    transition: 0.7s;
+}
+#telecard {
+    background-image: url(../images/telecard.PNG);
+    background-position: center;
+    background-size: cover;
+    color: #FFFC97;
+    font-size: 15px;
+    transition: 0.7s;
+}
+#telecard:hover {
+    height: 470px;
+    transition: 0.7s;
+        
+}
+.footerlist li {
+    background: black; text-align:center;
+    color:white;
+}
+.footerlist li a{
+    font-weight:bold;
+    color:white;
+}
